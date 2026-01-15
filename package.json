@@ -5,6 +5,7 @@
   },
   "devDependencies": {
     "eslint": "7.20.0",
-    "eslint-plugin-json": "2.1.2"
+    "eslint-plugin-json": "2.1.2",
+    "ts-node": "10.9.2"
   }
 }
