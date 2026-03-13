@@ -67,12 +67,12 @@ original=The spellcheck dictionary is empty.
 translation=वर्तनीपरीक्षा शब्दकोशः रिक्तः अस्ति
 
 [setting.editor.option-show-inline-title]
-original=Show inline title
-translation=Inline शीर्षकम् दर्शयतु
+original=Inline title
+translation=Inline शीर्षकम्
 
 [setting.editor.option-show-inline-title-description]
-original=Displays the filename as an editable title inline with the file contents.
-translation=सञ्चिकानाम सञ्चिकासामग्रीसहितं सम्पादनीयशीर्षकरूपेण प्रदर्शयति
+original=Display the filename as an editable title inline with the file contents.
+translation=सञ्चिकानाम सञ्चिकासामग्रीसहितं सम्पादनीयशीर्षकरूपेण प्रदर्शयति।
 
 [setting.editor.option-readable-line-length]
 original=Readable line length
@@ -191,16 +191,16 @@ original=Live Preview
 translation=साक्षात पूर्वावलोकन
 
 [setting.editor.option-show-line-number]
-original=Show line numbers
-translation=पङ्क्तिसङ्ख्यां दर्शयतु
+original=Line numbers
+translation=पङ्क्तिसङ्ख्याः
 
 [setting.editor.option-show-line-number-description]
 original=Show line numbers in the gutter.
 translation=Gutter-मध्ये रेखासङ्ख्यां दर्शयतु
 
 [setting.editor.option-indentation-guide]
-original=Show indentation guides
-translation=
+original=Indentation guides
+translation=अन्तर्वेशन-निर्देशिकाः
 
 [setting.editor.option-indentation-guide-description]
 original=Show vertical relationship lines between list items.
@@ -303,12 +303,12 @@ original=Files and links
 translation=सञ्चिकाः तथा परिसन्धिकाः
 
 [setting.file.option-confirm-file-deletion]
-original=Confirm file deletion
-translation=सञ्चिकाविलोपनस्य पुष्टिः कुर्वन्तु
+original=Confirm before deleting files
+translation=सञ्चिकाः लोपयितुं पूर्वं पुष्टिं कुरुत
 
 [setting.file.option-confirm-file-deletion-description]
-original=Ask before deleting a file.
-translation=सञ्चिकाविलोपनस्य पुष्ट्यर्थं प्रार्थितं प्राप्तुम् इच्छति वा
+original=Avoid accidentally deleting files.
+translation=अनायासेन सञ्चिकानां लोपनं निवारयति।
 
 [setting.file.option-trash]
 original=Trash
@@ -333,6 +333,26 @@ translation=तान् Obsidian-कचरायां स्थानान्
 [setting.file.option-choice-permanent-delete]
 original=Permanently delete
 translation=स्थायी विलोपनम्
+
+[setting.file.option-delete-unlinked-attachments]
+original=Delete attachments when deleting files
+translation=
+
+[setting.file.option-delete-unlinked-attachments-description]
+original=Automatically remove attachments linked to the deleted file if they're not used elsewhere.
+translation=
+
+[setting.file.option-choice-always]
+original=Always
+translation=
+
+[setting.file.option-choice-ask-every-time]
+original=Ask each time
+translation=
+
+[setting.file.option-choice-never]
+original=Never
+translation=
 
 [setting.file.option-default-open-action]
 original=Default file to open
@@ -818,6 +838,30 @@ translation=
 original=Display the header at the top of every tab.
 translation=
 
+[setting.appearance.option-floating-navigation]
+original=Floating navigation
+translation=
+
+[setting.appearance.option-floating-navigation-desc]
+original=Navigation buttons float over the content instead of being anchored.
+translation=
+
+[setting.appearance.option-sliding-sidebar]
+original=Sliding sidebars
+translation=
+
+[setting.appearance.option-sliding-sidebar-desc]
+original=Sidebars slide to the side of the content instead of floating above.
+translation=
+
+[setting.appearance.option-auto-full-screen]
+original=Full screen
+translation=
+
+[setting.appearance.option-auto-full-screen-desc]
+original=Automatically hide interface elements while reading.
+translation=
+
 [setting.appearance.msg-updates-found]
 original=Found {{count}} theme to update.
 translation=अद्यतनं कर्तुं {{count}} विषयवस्तुः प्राप्तः
@@ -966,6 +1010,10 @@ translation=
 original=Enter your secret.
 translation=
 
+[setting.keychain.msg-never-accessed]
+original=Never accessed
+translation=
+
 [setting.keychain.msg-error-update-secret]
 original=Failed to update secret.
 translation=
@@ -1006,6 +1054,30 @@ translation=
 original=Link...
 translation=
 
+[setting.keychain.msg-secrets-not-encrypted]
+original=Secrets are stored without encryption because no secret store is available on this system.
+translation=
+
+[setting.keychain.msg-secrets-not-encrypted-short]
+original=Secrets are not encrypted
+translation=
+
+[setting.keychain.button-dismiss-warning]
+original=Don't show again
+translation=
+
+[setting.keychain.label-encryption-not-available]
+original=Encryption not available
+translation=
+
+[setting.keychain.msg-encryption-provided-by-o-s]
+original=Encryption is provided by your operating system's secret store. Without a secret store, your secrets will be stored without encryption.
+translation=
+
+[setting.keychain.msg-linux-secret-stores]
+original=On Linux, supported secret stores include:
+translation=
+
 [setting.about.name]
 original=General
 translation=विषये
@@ -1039,12 +1111,8 @@ original=Version {{version}}
 translation=
 
 [setting.about.label-install-version]
-original=(Installer version: {{version}})
-translation=(संस्थापकसंस्करणम् : {{version}})
-
-[setting.about.label-up-to-date]
-original=Obsidian is up to date!
-translation=भवतः अनुप्रयोगः अद्यतनम् अस्ति!
+original=Installer version: {{version}}
+translation=स्थापकसंस्करणम्: {{version}}
 
 [setting.about.label-read-changelog]
 original=Read the changelog.
@@ -1088,6 +1156,26 @@ translation=
 
 [setting.about.button-check-startup]
 original=Check now
+translation=
+
+[setting.about.option-cli]
+original=Command line interface
+translation=
+
+[setting.about.option-cli-description]
+original=Allow interactions with Obsidian from the command line.
+translation=
+
+[setting.about.option-register-path]
+original=Set up CLI to work in the terminal
+translation=
+
+[setting.about.option-register-path-description]
+original=Register "obsidian" in PATH to enable accessing the "obsidian" command anywhere from your terminal.
+translation=
+
+[setting.about.button-register]
+original=Register
 translation=
 
 [setting.about.option-get-help]
@@ -1914,6 +2002,14 @@ translation=
 original=Delete footnote and reference
 translation=
 
+[editor.menu.reset-size]
+original=Reset size
+translation=
+
+[editor.menu.delete-image]
+original=Delete image
+translation=
+
 [editor.heading-suggestion.label-no-heading]
 original=No heading
 translation=शीर्षकं नास्ति
@@ -2029,10 +2125,6 @@ translation=कोऽपि सञ्चिका नास्ति
 [interface.msg-file-changed]
 original=“{{file}}” has been modified externally, merging changes automatically.
 translation="{{file}}" has been modified externally, merging changes automatically.
-
-[interface.switch-vault]
-original=Open another vault
-translation=अन्यं तिजोरीं उद्घाटयन्तु
 
 [interface.manage-vaults]
 original=Manage vaults...
@@ -2496,6 +2588,10 @@ translation=लेपनम्
 
 [interface.menu.copy-path]
 original=Copy path
+translation=
+
+[interface.menu.copy-image]
+original=Copy image
 translation=
 
 [interface.menu.copy-obsidian-url]
@@ -3430,6 +3526,10 @@ translation=
 original=Toggle readable line length
 translation=
 
+[commands.toggle-line-numbers]
+original=Toggle line numbers
+translation=
+
 [commands.navigate-back]
 original=Navigate back
 translation=पृष्ठतः गच्छन्तु
@@ -3443,8 +3543,20 @@ original=Toggle light/dark mode
 translation=
 
 [commands.change-theme]
-original=Change theme
-translation=परिवर्तयन्तु परिवर्तयन्तु
+original=Change theme...
+translation=विषयवस्तु परिवर्तयतु...
+
+[commands.change-vault]
+original=Change vault...
+translation=
+
+[commands.open-vault]
+original=Open vault...
+translation=
+
+[commands.manage-vaults]
+original=Manage vaults
+translation=
 
 [commands.search-current-file]
 original=Search current file
@@ -3810,21 +3922,17 @@ translation=सञ्चयं विलोपयन्तु
 original=Delete
 translation=विलोपयतु
 
-[dialogue.button-delete-do-not-ask-again]
-original=Delete and don't ask again
-translation=विलोप्य पुनः मा पृच्छतु
-
 [dialogue.label-do-not-ask-again]
 original=Don't ask again
 translation=पुनः मा पृच्छतु
 
 [dialogue.label-existing-backlink]
-original=There is currently {{count}} link pointing to this note.
-translation=अधुना अस्य टिप्पण्याः दिशि {{count}} सम्बन्धः अस्ति।
+original=There is currently {{count}} link pointing to this file.
+translation=अधुना अस्य सञ्चिकायाः दिशि {{count}} सम्बन्धः अस्ति।
 
 [dialogue.label-existing-backlink_plural]
-original=There are currently {{count}} links pointing to this note.
-translation=अधुना अस्य टिप्पण्याः दिशि {{count}} सम्बन्धाः सन्ति।
+original=There are currently {{count}} links pointing to this file.
+translation=अधुना अस्य सञ्चिकायाः दिशि {{count}} सम्बन्धाः सन्ति।
 
 [dialogue.label-delete-file]
 original=Delete file
@@ -3885,6 +3993,10 @@ translation=
 [dialogue.button-cancel]
 original=Cancel
 translation=निरसयतु
+
+[dialogue.button-skip]
+original=Skip
+translation=
 
 [dialogue.button-download]
 original=Download
@@ -3982,6 +4094,26 @@ translation=शीर्षकस्य नाम परिवर्तनं �
 original=Rename block ID
 translation=खण्डस्य ID परिवर्तयतु
 
+[dialogue.orphan-attachments-title]
+original=Delete file attachments?
+translation=
+
+[dialogue.orphan-attachments-desc]
+original=This attachment is no longer used in any notes. Would you like to delete it?
+translation=
+
+[dialogue.orphan-attachments-desc_plural]
+original=These {{count}} attachments are no longer used in any notes. Would you like to delete them?
+translation=
+
+[dialogue.tooltip-file-tree]
+original=File tree
+translation=
+
+[dialogue.tooltip-gallery]
+original=Gallery
+translation=
+
 [menu-items.new-file]
 original=New Note
 translation=टिप्पणं रचयन्तु
@@ -4068,6 +4200,14 @@ translation=
 
 [menu-items.insert-footnote]
 original=Footnote
+translation=
+
+[menu-items.inline-title]
+original=Inline title
+translation=
+
+[menu-items.line-numbers]
+original=Line numbers
 translation=
 
 [menu-items.toggle-bullet-list]
@@ -5793,6 +5933,10 @@ translation=अद्वितीय
 [plugins.unique-note-creator.action-create-note]
 original=Create new unique note
 translation=नूतनं अद्वितीयं टिप्पणं रचयन्तु
+
+[plugins.unique-note-creator.label-quick-action]
+original=New unique note
+translation=
 
 [plugins.unique-note-creator.action-add-link]
 original=Add unique internal link
@@ -8062,10 +8206,6 @@ translation=
 original=Save image to vault
 translation=
 
-[plugins.web-viewer.action-copy-image]
-original=Copy image
-translation=
-
 [plugins.web-viewer.action-copy-image-link]
 original=Copy image link
 translation=
@@ -8946,12 +9086,20 @@ translation=
 original=Filter
 translation=
 
+[plugins.bases.label-search]
+original=Search
+translation=
+
 [plugins.bases.label-properties]
 original=Properties
 translation=
 
 [plugins.bases.label-new-item]
 original=New
+translation=
+
+[plugins.bases.label-search-results]
+original=Showing {{count}}
 translation=
 
 [plugins.bases.label-new-item-template-file]
@@ -9344,6 +9492,10 @@ translation=
 
 [plugins.bases.table.action-group-by]
 original=Group by this property
+translation=
+
+[plugins.bases.table.action-clear-selection]
+original=Clear values
 translation=
 
 [plugins.bases.table.label-summary]

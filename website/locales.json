@@ -1,0 +1,26 @@
+{
+	"defaultLocale": "en",
+	"rtlLocales": [
+		"ar"
+	],
+	"locales": [
+		"en",
+		"ar",
+		"de",
+		"es",
+		"fr",
+		"ja",
+		"ko",
+		"zh"
+	],
+	"localeLabels": {
+		"en": "English",
+		"ar": "العربية",
+		"de": "Deutsch",
+		"es": "Español",
+		"fr": "Français",
+		"ja": "日本語",
+		"ko": "한국어",
+		"zh": "简体中文"
+	}
+}

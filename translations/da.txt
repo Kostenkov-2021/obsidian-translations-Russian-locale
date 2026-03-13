@@ -67,12 +67,12 @@ original=The spellcheck dictionary is empty.
 translation=Stavekontrolordbogen er tom.
 
 [setting.editor.option-show-inline-title]
-original=Show inline title
-translation=Vis indlejret titel
+original=Inline title
+translation=Indlejret titel
 
 [setting.editor.option-show-inline-title-description]
-original=Displays the filename as an editable title inline with the file contents.
-translation=Viser filnavn som en redigerbar titel indlejret i filindholdet.
+original=Display the filename as an editable title inline with the file contents.
+translation=Vis filnavn som en redigerbar titel indlejret i filindholdet.
 
 [setting.editor.option-readable-line-length]
 original=Readable line length
@@ -84,7 +84,7 @@ translation=Begræns maksimal linjelængde. Rummer mindre indhold på skærmen, 
 
 [setting.editor.option-strict-line-break]
 original=Strict line breaks
-translation=Strenge linjeskift
+translation=Strikse linjeskift
 
 [setting.editor.option-strict-line-break-description]
 original=Markdown specs ignore single line breaks in reading view. Turn this off to make single line breaks visible.
@@ -152,19 +152,19 @@ translation=Lader dig folde en del af den samme indrykning, fx lister.
 
 [setting.editor.option-default-new-tab-view]
 original=Default view for new tabs
-translation=Standardvisning for nye faner
+translation=Standardview for nye faner
 
 [setting.editor.option-default-new-tab-view-description]
 original=The default view that a new Markdown tab gets opened in.
-translation=Standardvisningen, som en ny Markdown-fane åbnes i.
+translation=Standardviewet, som en ny Markdown fane åbnes i.
 
 [setting.editor.option-default-new-tab-view-editing]
 original=Editing view
-translation=Redigeringsvisning
+translation=Redigering
 
 [setting.editor.option-default-new-tab-view-reading]
 original=Reading view
-translation=Læsevisning
+translation=Læsning
 
 [setting.editor.option-open-tab-in-foreground]
 original=Always focus new tabs
@@ -191,16 +191,16 @@ original=Live Preview
 translation=Live forhåndsvisning
 
 [setting.editor.option-show-line-number]
-original=Show line numbers
-translation=Vis linjenummer
+original=Line numbers
+translation=Linjenummer
 
 [setting.editor.option-show-line-number-description]
 original=Show line numbers in the gutter.
 translation=Vis linjenummer i margen.
 
 [setting.editor.option-indentation-guide]
-original=Show indentation guides
-translation=Vis indrykningshjælpelinjer
+original=Indentation guides
+translation=Indrykningshjælpelinjer
 
 [setting.editor.option-indentation-guide-description]
 original=Show vertical relationship lines between list items.
@@ -303,12 +303,12 @@ original=Files and links
 translation=Filer & Links
 
 [setting.file.option-confirm-file-deletion]
-original=Confirm file deletion
-translation=Bekræft filsletning
+original=Confirm before deleting files
+translation=Bekræft før filer slettes
 
 [setting.file.option-confirm-file-deletion-description]
-original=Ask before deleting a file.
-translation=Om du vil bedes om at bekræfte filsletning.
+original=Avoid accidentally deleting files.
+translation=Undgå at komme til at slette filer ved et uheld.
 
 [setting.file.option-trash]
 original=Trash
@@ -328,11 +328,31 @@ translation=Flyt til systemets papirkurv
 
 [setting.file.option-choice-vault-trash]
 original=Move to Obsidian trash (.trash folder)
-translation=Flyt til Obsidian-papirkurv (.trash-mappe)
+translation=Flyt til Obsidians papirkurv (.trash-mappe)
 
 [setting.file.option-choice-permanent-delete]
 original=Permanently delete
 translation=Slet permanent
+
+[setting.file.option-delete-unlinked-attachments]
+original=Delete attachments when deleting files
+translation=Slet vedhæftninger, når filer slettes
+
+[setting.file.option-delete-unlinked-attachments-description]
+original=Automatically remove attachments linked to the deleted file if they're not used elsewhere.
+translation=Fjern automatisk vedhæftninger, der er linket til den slettede fil, hvis de ikke bruges andre steder.
+
+[setting.file.option-choice-always]
+original=Always
+translation=Altid
+
+[setting.file.option-choice-ask-every-time]
+original=Ask each time
+translation=Spørg hver gang
+
+[setting.file.option-choice-never]
+original=Never
+translation=Aldrig
 
 [setting.file.option-default-open-action]
 original=Default file to open
@@ -384,11 +404,11 @@ translation=Hvor nye noter skal placeres. Plugin-indstillinger tilsidesætter de
 
 [setting.file.option-choice-vault-root]
 original=Vault folder
-translation=Boks-mappe
+translation=Boksmappe
 
 [setting.file.option-choice-current-folder]
 original=Same folder as current file
-translation=Samme mappe, hvor filen ligger
+translation=I Samme mappe som nuværende fil
 
 [setting.file.option-choice-specified-folder]
 original=In the folder specified below
@@ -688,27 +708,27 @@ translation=CSS-kodestykker
 
 [setting.appearance.label-no-css-snippets-found]
 original=No CSS snippets found.
-translation=Ingen CSS-kodestykker fundet i kodestykker-mappen.
+translation=Ingen CSS kodestykker fundet i CSS kodestykkemappen.
 
 [setting.appearance.no-snippet-description]
 original=CSS Snippets are stored in “{{path}}”.
-translation=CSS-kodestykker er gemt i "{{path}}".
+translation=CSS kodestykker er gemt i "{{path}}".
 
 [setting.appearance.button-reload-snippets]
 original=Reload snippets
-translation=Genindlæs kodestykker
+translation=Genindlæs CSS kodestykker
 
 [setting.appearance.button-open-snippets-folder]
 original=Open snippets folder
-translation=Åbn kodestykker-mappe
+translation=Åbn mappe med CSS kodestykker
 
 [setting.appearance.msg-reloaded-snippets]
 original=Reloaded CSS snippets.
-translation=Genindlæste CSS-kodestykker.
+translation=Genindlæste CSS kodestykker.
 
 [setting.appearance.option-toggle-snippet-description]
 original=Apply CSS snippet at “{{path}}”.
-translation=Anvend CSS-kodestykke ved "{{path}}".
+translation=Anvend CSS kodestykke på "{{path}}".
 
 [setting.appearance.label-installed-themes]
 original=Installed themes
@@ -817,6 +837,30 @@ translation=Vis fanens titellinje
 [setting.appearance.option-show-view-header-desc]
 original=Display the header at the top of every tab.
 translation=Vis overskriften øverst på hver fane.
+
+[setting.appearance.option-floating-navigation]
+original=Floating navigation
+translation=Flydende navigation
+
+[setting.appearance.option-floating-navigation-desc]
+original=Navigation buttons float over the content instead of being anchored.
+translation=Navigationsknapperne flyder over indholdet i stedet for at være forankret.
+
+[setting.appearance.option-sliding-sidebar]
+original=Sliding sidebars
+translation=Skydesidepaneler
+
+[setting.appearance.option-sliding-sidebar-desc]
+original=Sidebars slide to the side of the content instead of floating above.
+translation=Sidepaneler glider ud ved siden af indholdet i stedet for at flyde ovenpå.
+
+[setting.appearance.option-auto-full-screen]
+original=Full screen
+translation=Fuld skærm
+
+[setting.appearance.option-auto-full-screen-desc]
+original=Automatically hide interface elements while reading.
+translation=Skjul automatisk brugerfladeelementer under læsning.
 
 [setting.appearance.msg-updates-found]
 original=Found {{count}} theme to update.
@@ -966,6 +1010,10 @@ translation=Kun små bogstaver, tal og bindestreger.
 original=Enter your secret.
 translation=Indtast din hemmelighed.
 
+[setting.keychain.msg-never-accessed]
+original=Never accessed
+translation=Aldrig tilgået
+
 [setting.keychain.msg-error-update-secret]
 original=Failed to update secret.
 translation=Kunne ikke opdatere hemmelighed.
@@ -1006,6 +1054,30 @@ translation=Tilføj hemmelighed...
 original=Link...
 translation=Link...
 
+[setting.keychain.msg-secrets-not-encrypted]
+original=Secrets are stored without encryption because no secret store is available on this system.
+translation=Hemmeligheder gemmes uden kryptering, fordi der ikke er nogen hemmelighedslager tilgængelig på dette system.
+
+[setting.keychain.msg-secrets-not-encrypted-short]
+original=Secrets are not encrypted
+translation=Hemmeligheder er ikke krypteret
+
+[setting.keychain.button-dismiss-warning]
+original=Don't show again
+translation=Vis ikke igen
+
+[setting.keychain.label-encryption-not-available]
+original=Encryption not available
+translation=Kryptering ikke tilgængelig
+
+[setting.keychain.msg-encryption-provided-by-o-s]
+original=Encryption is provided by your operating system's secret store. Without a secret store, your secrets will be stored without encryption.
+translation=Kryptering leveres af dit operativsystems hemmelighedslager. Uden et hemmelighedslager gemmes dine hemmeligheder uden kryptering.
+
+[setting.keychain.msg-linux-secret-stores]
+original=On Linux, supported secret stores include:
+translation=På Linux omfatter understøttede hemmelighedslagre:
+
 [setting.about.name]
 original=General
 translation=Om
@@ -1039,12 +1111,8 @@ original=Version {{version}}
 translation=Version {{version}}
 
 [setting.about.label-install-version]
-original=(Installer version: {{version}})
-translation=(Installationsversion: {{version}})
-
-[setting.about.label-up-to-date]
-original=Obsidian is up to date!
-translation=Obsidian er opdateret!
+original=Installer version: {{version}}
+translation=Installationsversion: {{version}}
 
 [setting.about.label-read-changelog]
 original=Read the changelog.
@@ -1090,6 +1158,26 @@ translation=Diagnosticer problemer med Obsidian ved at vise årsager til at opst
 original=Check now
 translation=Tjek nu
 
+[setting.about.option-cli]
+original=Command line interface
+translation=Kommandolinjegrænseflade
+
+[setting.about.option-cli-description]
+original=Allow interactions with Obsidian from the command line.
+translation=Tillad interaktioner med Obsidian fra kommandolinjen.
+
+[setting.about.option-register-path]
+original=Set up CLI to work in the terminal
+translation=Konfigurer CLI til at virke i terminalen
+
+[setting.about.option-register-path-description]
+original=Register "obsidian" in PATH to enable accessing the "obsidian" command anywhere from your terminal.
+translation=Registrer "obsidian" i PATH for at give adgang til kommandoen "obsidian" hvor som helst fra din terminal.
+
+[setting.about.button-register]
+original=Register
+translation=Registrer
+
 [setting.about.option-get-help]
 original=Help
 translation=Få hjælp
@@ -1112,11 +1200,11 @@ translation=Skift det viste sprog.
 
 [setting.about.option-insider-build]
 original=Receive early access versions
-translation=Modtag insider-versioner
+translation=Modtag insider versioner
 
 [setting.about.option-insider-build-description]
 original=Auto-update to the latest early access version. These versions include new features but may be less stable.
-translation=Auto-opdater til insider-versioner for at afprøve nye funktioner. Bemærk, at disse versioner er helt nye og kan være mindre stabile.
+translation=Opdatér insider versioner atomatisk for at afprøve nye funktioner. Bemærk, at disse versioner er helt nye og kan være mindre stabile.
 
 [setting.about.option-advanced]
 original=Advanced
@@ -1320,7 +1408,7 @@ translation=Søg plugins...
 
 [setting.third-party-plugin.name]
 original=Community plugins
-translation=Tredjepartsplugins
+translation=Fællesskabssplugins
 
 [setting.third-party-plugin.option-restricted-mode]
 original=Restricted mode
@@ -1348,7 +1436,7 @@ translation=Fællesskabsplugins
 
 [setting.third-party-plugin.option-browse-community-plugins-description]
 original=Browse and install community plugins made by our amazing community.
-translation=Gennemse og installer tredjepartsplugins skabt af vores fantastiske fællesskab.
+translation=Gennemse og installer fællesskabssplugins skabt af vores fantastiske fællesskab.
 
 [setting.third-party-plugin.button-browse]
 original=Browse
@@ -1914,6 +2002,14 @@ translation=Rediger denne blok
 original=Delete footnote and reference
 translation=Slet fodnote og reference
 
+[editor.menu.reset-size]
+original=Reset size
+translation=Nulstil størrelse
+
+[editor.menu.delete-image]
+original=Delete image
+translation=Slet billede
+
 [editor.heading-suggestion.label-no-heading]
 original=No heading
 translation=Ingen overskrift
@@ -2029,10 +2125,6 @@ translation=Ingen fil
 [interface.msg-file-changed]
 original=“{{file}}” has been modified externally, merging changes automatically.
 translation="{{file}}" er blevet ændret eksternt, og ændringerne flettes automatisk.
-
-[interface.switch-vault]
-original=Open another vault
-translation=Åbn en anden boks
 
 [interface.manage-vaults]
 original=Manage vaults...
@@ -2204,7 +2296,7 @@ translation=Tilføj eksternt link
 
 [interface.formatting.insert-callout]
 original=Callout
-translation=Bemærkning
+translation=Boble
 
 [interface.formatting.insert-horizontal-rule]
 original=Horizontal rule
@@ -2497,6 +2589,10 @@ translation=Indsæt
 [interface.menu.copy-path]
 original=Copy path
 translation=Kopiér sti
+
+[interface.menu.copy-image]
+original=Copy image
+translation=Kopier billede
 
 [interface.menu.copy-obsidian-url]
 original=as Obsidian URL
@@ -3430,6 +3526,10 @@ translation=Slå fanegrupper til/fra
 original=Toggle readable line length
 translation=Slå læsbar linjelængde til/fra
 
+[commands.toggle-line-numbers]
+original=Toggle line numbers
+translation=Slå linjenumre til/fra
+
 [commands.navigate-back]
 original=Navigate back
 translation=Naviger tilbage
@@ -3443,8 +3543,20 @@ original=Toggle light/dark mode
 translation=Slå lys/mørk tilstand til/fra
 
 [commands.change-theme]
-original=Change theme
-translation=Skift tema
+original=Change theme...
+translation=Skift tema...
+
+[commands.change-vault]
+original=Change vault...
+translation=Skift boks...
+
+[commands.open-vault]
+original=Open vault...
+translation=Åbn boks...
+
+[commands.manage-vaults]
+original=Manage vaults
+translation=Administrer bokse
 
 [commands.search-current-file]
 original=Search current file
@@ -3636,7 +3748,7 @@ translation=Skift mellem punkter/afkrydsningsfelter
 
 [commands.insert-callout]
 original=Insert callout
-translation=Indsæt bemærkning
+translation=Indsæt boble
 
 [commands.insert-code-block]
 original=Insert code block
@@ -3716,7 +3828,7 @@ translation=Nulstil zoom
 
 [commands.toggle-preview]
 original=Toggle reading view
-translation=Skift mellem redigerings- og forhåndsvisningstilstand
+translation=Skift mellem læsning og redigering
 
 [commands.move-to-new-window]
 original=Move current tab to new window
@@ -3788,7 +3900,7 @@ translation=Den flyttes til systemets papirkurv.
 
 [dialogue.label-move-to-vault-trash]
 original=It will be moved to your Obsidian trash, which is located in the “.trash” hidden folder in your vault.
-translation=Den flyttes til din Obsidian-papirkurv, som ligger i den skjulte mappe ".trash" i din boks.
+translation=Den flyttes til Obsidians papirkurv, som ligger i den skjulte mappe ".trash" i din boks.
 
 [dialogue.label-permanent-delete]
 original=The file will be permanent deleted.
@@ -3810,21 +3922,17 @@ translation=Slet mappe
 original=Delete
 translation=Slet
 
-[dialogue.button-delete-do-not-ask-again]
-original=Delete and don't ask again
-translation=Slet, og spørg ikke igen
-
 [dialogue.label-do-not-ask-again]
 original=Don't ask again
 translation=Spørg ikke igen
 
 [dialogue.label-existing-backlink]
-original=There is currently {{count}} link pointing to this note.
-translation=Der er i øjeblikket {{count}} link, der peger på denne note.
+original=There is currently {{count}} link pointing to this file.
+translation=Der er i øjeblikket {{count}} link, der peger på denne fil.
 
 [dialogue.label-existing-backlink_plural]
-original=There are currently {{count}} links pointing to this note.
-translation=Der er i øjeblikket {{count}} links, der peger på denne note.
+original=There are currently {{count}} links pointing to this file.
+translation=Der er i øjeblikket {{count}} links, der peger på denne fil.
 
 [dialogue.label-delete-file]
 original=Delete file
@@ -3885,6 +3993,10 @@ translation=Bekræft
 [dialogue.button-cancel]
 original=Cancel
 translation=Annuller
+
+[dialogue.button-skip]
+original=Skip
+translation=Spring over
 
 [dialogue.button-download]
 original=Download
@@ -3982,6 +4094,26 @@ translation=Omdøb overskrift
 original=Rename block ID
 translation=Omdøb blok-ID
 
+[dialogue.orphan-attachments-title]
+original=Delete file attachments?
+translation=Slet filvedhæftninger?
+
+[dialogue.orphan-attachments-desc]
+original=This attachment is no longer used in any notes. Would you like to delete it?
+translation=Denne vedhæftning bruges ikke længere i nogen noter. Vil du slette den?
+
+[dialogue.orphan-attachments-desc_plural]
+original=These {{count}} attachments are no longer used in any notes. Would you like to delete them?
+translation=Disse {{count}} vedhæftninger bruges ikke længere i nogen noter. Vil du slette dem?
+
+[dialogue.tooltip-file-tree]
+original=File tree
+translation=Filtræ
+
+[dialogue.tooltip-gallery]
+original=Gallery
+translation=Galleri
+
 [menu-items.new-file]
 original=New Note
 translation=Opret note
@@ -4024,7 +4156,7 @@ translation=Erstat
 
 [menu-items.insert-callout]
 original=Callout
-translation=Bemærkning
+translation=Boble
 
 [menu-items.insert-markdown-link]
 original=Markdown Link
@@ -4069,6 +4201,14 @@ translation=Tabel
 [menu-items.insert-footnote]
 original=Footnote
 translation=Fodnote
+
+[menu-items.inline-title]
+original=Inline title
+translation=Indlejret titel
+
+[menu-items.line-numbers]
+original=Line numbers
+translation=Linjenumre
 
 [menu-items.toggle-bullet-list]
 original=Bullet List
@@ -4944,7 +5084,7 @@ translation=Tilbagelinks
 
 [plugins.backlinks.desc]
 original=Show links from other files to the current file. Backlinks can be shown in a separate view or at the bottom of the note.
-translation=Vis antallet af tilbage i statuslinjen.
+translation=Vis links fra andre filer til den nuværende fil. Tilbagelinks kan vises i et separat vindue eller i bunden af noten.
 
 [plugins.backlinks.action-open]
 original=Open backlinks
@@ -5000,7 +5140,7 @@ translation=...
 
 [plugins.backlinks.option-backlink-in-document]
 original=Show backlinks at the bottom of notes
-translation=Backlink i dokument
+translation=Tilbagelinks i dokument
 
 [plugins.backlinks.option-backlink-in-document-desc]
 original=Make backlinks visible in new tabs by default.
@@ -5436,11 +5576,11 @@ translation=Stop brugen af dette tema
 
 [plugins.custom-css.label-install-and-use]
 original=Install and use
-translation=Installer og brug
+translation=Installér og anvend
 
 [plugins.custom-css.label-update]
 original=Update
-translation=Opdater
+translation=Opdatér
 
 [plugins.custom-css.label-no-readme]
 original=This theme did not provide a README file.
@@ -5460,7 +5600,7 @@ translation=Kunne ikke indlæse fællesskabstemaer. Tjek venligst din internetfo
 
 [plugins.custom-css.msg-now-using-theme]
 original=You're now using {{title}} as your CSS theme.
-translation=Du bruger nu {{title}} som dit CSS-tema.
+translation=Du bruger nu {{title}} som dit CSS tema.
 
 [plugins.custom-css.msg-deleted-theme]
 original=The theme {{title}} has been deleted.
@@ -5556,19 +5696,19 @@ translation=Fastgjorte kommandoer
 
 [plugins.markdown-format-importer.name]
 original=Format converter
-translation=Importør af Markdown-format
+translation=Formatkonvertering
 
 [plugins.markdown-format-importer.desc]
 original=Convert Markdown from other apps to Obsidian format.
-translation=Konverter Markdown fra andre apps til Obsidian-format.
+translation=Konvertér Markdown fra andre applikationer til Obsidians format.
 
 [plugins.markdown-format-importer.action-open]
 original=Open format converter
-translation=Åbn Markdown-importør
+translation=Åbn formatkonvertering
 
 [plugins.markdown-format-importer.option-roam-tag-fixer]
 original=Roam Research tag fixer
-translation=Konverter Roam Research-tag
+translation=Konvertér Roam Research-tag
 
 [plugins.markdown-format-importer.option-roam-tag-fixer-description]
 original=Converts “#tag” and “#[[tag]]” to “[[tag]]”.
@@ -5576,7 +5716,7 @@ translation=Konverterer "#tag" og "#[[tag]]" til "[[tag]]".
 
 [plugins.markdown-format-importer.option-roam-highlight-fixer]
 original=Roam Research highlight fixer
-translation=Konverter Roam Research-fremhævning
+translation=Konvertér Roam Research-fremhævning
 
 [plugins.markdown-format-importer.option-roam-highlight-fixer-description]
 original=Converts “^^highlight^^” to “==highlight==”.
@@ -5584,7 +5724,7 @@ translation=Konverterer "^^fremhævet^^" til "==fremhævet==".
 
 [plugins.markdown-format-importer.option-roam-todo-converter]
 original=Roam Research TODO converter
-translation=Konverter Roam Research-TODOs
+translation=Konvertér Roam Research-TODOs
 
 [plugins.markdown-format-importer.option-roam-todo-converter-description]
 original=Converts “{{[[TODO]]}}” to “[ ]”.
@@ -5592,7 +5732,7 @@ translation=Konverterer "{{[[TODO]]}}" til "[ ]".
 
 [plugins.markdown-format-importer.option-bear-highlight-fixer]
 original=Bear highlight fixer
-translation=Konverter Bear-fremhævning
+translation=Konvertér Bear-fremhævning
 
 [plugins.markdown-format-importer.option-bear-highlight-fixer-description]
 original=Converts “::highlight::” to “==highlight==”.
@@ -5600,7 +5740,7 @@ translation=Konverterer "::fremhævning::" til "==fremhævning==".
 
 [plugins.markdown-format-importer.zettelkasten-link-fixer]
 original=Zettelkasten link fixer
-translation=Konverter Zettelkasten-links
+translation=Konvertér Zettelkasten links
 
 [plugins.markdown-format-importer.zettelkasten-link-fixer-description]
 original=Fixes “[[UID]]” links to full “[[UID File Name]]”.
@@ -5608,23 +5748,23 @@ translation=Konverterer "[[UID]]" links til fuldt format "[[UID Filname]]".
 
 [plugins.markdown-format-importer.zettelkasten-link-beautifier]
 original=Zettelkasten link beautifier
-translation=Zettelkasten-linkforskønner
+translation=Zettelkasten link forskønner
 
 [plugins.markdown-format-importer.zettelkasten-link-beautifier-description]
 original=Fixes “[[UID]]” links and also beautify them “[[UID File Name|File Name]]”.
-translation=Retter "[[UID]]" links og forskønner dem også "[[UID File Name|File Name]]".
+translation=Retter "[[UID]]" links og tilføjer visningstitler "[[UID Filnavn|Filnavn]]".
 
 [plugins.markdown-format-importer.frontmatter-migration]
 original=Frontmatter migration
-translation=Frontmatter migrering
+translation=Migrering af egenskaber
 
 [plugins.markdown-format-importer.frontmatter-migration-description]
 original=Migrate frontmatter tags, aliases, and cssclasses to the strict format required by Obsidian v1.9+
-translation=Migrerer frontmatter tags, aliases, og cssclasses til det strikte format som Obsidian v1.9+ kræver
+translation=Migrerer tags, aliases, og cssclasses til det strikte format som Obsidian v1.9+ kræver
 
 [plugins.markdown-format-importer.msg-all-files-warning]
 original=Warning: the converter will convert all the files in your vault, not just the current file.
-translation=Advarsel: importøren konverterer alle filerne i din boks, ikke kun den aktuelle fil.
+translation=Advarsel: Konverterer alle filerne i din boks, og ikke kun den aktuelle fil.
 
 [plugins.markdown-format-importer.msg-override-files-warning]
 original=Your files will be overwritten. Back up all your files before attempting conversion.
@@ -5632,7 +5772,7 @@ translation=Dine filer overskrives. Sikkerhedskopiér alle dine filer, før du f
 
 [plugins.markdown-format-importer.label-start-conversion]
 original=Start conversion
-translation=Start Konvertering
+translation=Start konvertering
 
 [plugins.markdown-format-importer.label-stop]
 original=Stop
@@ -5793,6 +5933,10 @@ translation=Unik
 [plugins.unique-note-creator.action-create-note]
 original=Create new unique note
 translation=Opret ny unik note
+
+[plugins.unique-note-creator.label-quick-action]
+original=New unique note
+translation=Ny unik note
 
 [plugins.unique-note-creator.action-add-link]
 original=Add unique internal link
@@ -6064,7 +6208,7 @@ translation=Aktiver evnen til at udløse skråstregskommandoer i editoren ved at
 
 [plugins.editor-status.name]
 original=Show editing mode in status bar
-translation=Redigeringsstatus
+translation=Vis redigeringstilstand i statusbar
 
 [plugins.editor-status.desc]
 original=Show the editing mode toggle in the status bar.
@@ -7468,15 +7612,15 @@ translation=Indstillinger for udseende
 
 [plugins.sync.option-sync-appearance-desc]
 original=Sync appearance settings like dark mode, active theme, and enabled snippets.
-translation=Synkroniser indstillinger for udseende som mørk tilstand, aktivt tema og aktiverede kodestykker.
+translation=Synkroniser indstillinger for udseende som mørk tilstand, aktivt tema og aktiverede CSS kodestykker.
 
 [plugins.sync.option-sync-appearance-data]
 original=Themes and snippets
-translation=Temaer og kodestykker
+translation=Temaer og CSS kodestykker
 
 [plugins.sync.option-sync-appearance-data-desc]
 original=Sync downloaded themes and snippets. Whether they are enabled depends on the previous setting.
-translation=Synkroniser hentede temaer og kodestykker. Om de er aktiveret, afhænger af den tidligere indstilling.
+translation=Synkroniser hentede temaer og CSS kodestykker. Om de er aktiveret, afhænger af den tidligere indstilling.
 
 [plugins.sync.option-sync-hotkey]
 original=Hotkeys
@@ -8061,10 +8205,6 @@ translation=Gem til boks
 [plugins.web-viewer.action-save-image]
 original=Save image to vault
 translation=Gem billede til boks
-
-[plugins.web-viewer.action-copy-image]
-original=Copy image
-translation=Kopier billede
 
 [plugins.web-viewer.action-copy-image-link]
 original=Copy image link
@@ -8776,7 +8916,7 @@ translation=Tilføj formel
 
 [plugins.bases.action-hide-all]
 original=Hide all
-translation=Gem alle
+translation=Skjul alle
 
 [plugins.bases.action-toggle-visibility]
 original=Toggle visibility
@@ -8852,11 +8992,11 @@ translation=Vis alle ({{count}})
 
 [plugins.bases.button-add-summary]
 original=Add summary
-translation=Tilføj oversigt
+translation=Tilføj summering
 
 [plugins.bases.button-hide-summary]
 original=Hide summary
-translation=Skjul oversigt
+translation=Skjul summering
 
 [plugins.bases.label-all-views]
 original=All views
@@ -8892,7 +9032,7 @@ translation=Rediger egenskab
 
 [plugins.bases.title-edit-property]
 original=Edit {{name}}
-translation=Regiger {{name}}
+translation=Rediger {{name}}
 
 [plugins.bases.label-configure-view]
 original=Configure view
@@ -8946,6 +9086,10 @@ translation=Sorter
 original=Filter
 translation=Filter
 
+[plugins.bases.label-search]
+original=Search
+translation=Søg
+
 [plugins.bases.label-properties]
 original=Properties
 translation=Egenskaber
@@ -8954,9 +9098,13 @@ translation=Egenskaber
 original=New
 translation=Ny
 
+[plugins.bases.label-search-results]
+original=Showing {{count}}
+translation=Viser {{count}}
+
 [plugins.bases.label-new-item-template-file]
 original=New item template file
-translation=Ny element skabelonfil
+translation=Ny element skabelon
 
 [plugins.bases.label-new-item-folder]
 original=New item folder
@@ -8964,7 +9112,7 @@ translation=Ny element mappe
 
 [plugins.bases.label-any-of-the-following]
 original=Any of the following are true
-translation=Enhver af det følgende er sandt
+translation=Én af det følgende er sandt
 
 [plugins.bases.label-all-the-following]
 original=All the following are true
@@ -9000,15 +9148,15 @@ translation=fil
 
 [plugins.bases.label-file-prop-name]
 original=file name
-translation=navm
+translation=filnavn
 
 [plugins.bases.label-file-prop-base-name]
 original=file base name
-translation=fil base navn
+translation=base navn på fil
 
 [plugins.bases.label-file-prop-full-name]
 original=file full name
-translation=fil fulde navn
+translation=fulde navn på fil
 
 [plugins.bases.label-file-prop-path]
 original=file path
@@ -9020,7 +9168,7 @@ translation=mappe
 
 [plugins.bases.label-file-prop-ext]
 original=file extension
-translation=extension
+translation=ekstension
 
 [plugins.bases.label-file-prop-ctime]
 original=created time
@@ -9032,23 +9180,23 @@ translation=Tidspunkt modificeret
 
 [plugins.bases.label-file-prop-size]
 original=file size
-translation=fil størrelse
+translation=filstørrelse
 
 [plugins.bases.label-file-prop-backlinks]
 original=file backlinks
-translation=fil-tilbagekoblinger
+translation=filtilbagelinks
 
 [plugins.bases.label-file-prop-links]
 original=file links
-translation=fil links
+translation=fillinks
 
 [plugins.bases.label-file-prop-embeds]
 original=file embeds
-translation=fil indlejringer
+translation=filindlejringer
 
 [plugins.bases.label-file-prop-tags]
 original=file tags
-translation=fil tags
+translation=filtags
 
 [plugins.bases.label-add-sort]
 original=Add sort
@@ -9092,11 +9240,11 @@ translation=1 → 0
 
 [plugins.bases.msg-invalid-view-name]
 original=View name cannot contain: 
-translation=View navnet kan ikke indeholde: 
+translation=Viewnavnet kan ikke indeholde: 
 
 [plugins.bases.msg-duplicate-view-name]
 original=View name already exists.
-translation=Visningsnavnet findes allerede.
+translation=Viewnavnet findes allerede.
 
 [plugins.bases.msg-empty-view-name]
 original=View name cannot be empty.
@@ -9112,11 +9260,11 @@ translation=Filteret kunne ikke analyseres. Det simple filterværktøj kan ikke 
 
 [plugins.bases.msg-error-invalid-properties-section]
 original=Invalid properties configuration.
-translation=Ugyldig egenskabs konfiguration.
+translation=Ugyldig egenskabskonfiguration.
 
 [plugins.bases.msg-error-invalid-property-config]
 original=Invalid property config for "{{ name }}".
-translation=Ugyldig egenskabs konfigurationsfil for "{{ name }}".
+translation=Ugyldig egenskabskonfigurationsfil for "{{ name }}".
 
 [plugins.bases.msg-error-register-view]
 original=Unable to add new Bases view "{{ viewId }}". A view with this ID already exists.
@@ -9132,7 +9280,7 @@ translation=Viewet "{{ view }}" kunne ikke findes
 
 [plugins.bases.msg-error-unknown-view-type]
 original=Unknown view type: {{ viewtype }}
-translation=Base er konfigureret med enb ukendt view type: {{ viewtype }}
+translation=Base er konfigureret med en ukendt view type: {{ viewtype }}
 
 [plugins.bases.msg-error-view-type]
 original=Views must be an array
@@ -9140,7 +9288,7 @@ translation=Views skal være en sekvens
 
 [plugins.bases.msg-error-display-values]
 original=Display values must be strings. Value for property {{ key }} is not.
-translation=Visningsværdier skal være tekststrenge. Værdiern for egenskab {{ key }} er ikke en tekststreng.
+translation=Visningsværdier skal være tekststrenge. Værdierne for egenskab {{ key }} er ikke en tekststreng.
 
 [plugins.bases.msg-error-must-be-a-type]
 original="{{ key }}" must be a {{ type }}
@@ -9148,7 +9296,7 @@ translation="{{ key }}" skal være af typen {{ type }}
 
 [plugins.bases.msg-error-filter-type]
 original="filters" must be a string or an object
-translation="filters" skal være en teksstreng eller et objekt
+translation="filtre" skal være en teksstreng eller et objekt
 
 [plugins.bases.msg-error-filter-must-be-array]
 original="{{ conjunction }}" filter must be an array
@@ -9156,7 +9304,7 @@ translation="{{ conjunction }}" filter skal være en sekvens
 
 [plugins.bases.msg-error-filter-allowed-keys]
 original="filters" may only have one of an "and", "or", or "not" keys.
-translation="filters" må kun indeholde én "og", "eller", eller "ikke" nøgle.
+translation="filtre" må kun indeholde én "og", "eller", eller "ikke" operator.
 
 [plugins.bases.msg-error-filter-failed-to-evaluate]
 original=Failed to evaluate a filter: {{ message }}
@@ -9212,11 +9360,11 @@ translation=Denne note bliver filtreret fra, da den ikke matcher dine kriterier
 
 [plugins.bases.placeholder-filter-advanced-mode]
 original=Advanced filter
-translation=Advanceret filter
+translation=Avanceret filter
 
 [plugins.bases.placeholder-limit]
 original=e.g. 10
-translation=f.eks. 10
+translation=fx. 10
 
 [plugins.bases.tooltip-filter-advanced-mode]
 original=Advanced filter
@@ -9268,7 +9416,7 @@ translation=Kort
 
 [plugins.bases.cards.label-card-size]
 original=Card size
-translation=Kort størrelse
+translation=Størrelse på kort
 
 [plugins.bases.cards.label-image-property]
 original=Image property
@@ -9280,11 +9428,11 @@ translation=Billedtilpasning
 
 [plugins.bases.cards.option-image-fit-cover]
 original=Cover
-translation=Omslag
+translation=Beskåret
 
 [plugins.bases.cards.option-image-fit-contain]
 original=Contain
-translation=Indhold
+translation=Skaleret
 
 [plugins.bases.cards.label-image-aspect-ratio]
 original=Image aspect ratio
@@ -9340,15 +9488,19 @@ translation=Ekstra høj
 
 [plugins.bases.table.action-select-summary]
 original=Summarize...
-translation=Sammenfat...
+translation=Summér...
 
 [plugins.bases.table.action-group-by]
 original=Group by this property
 translation=Gruppér efter denne egenskab
 
+[plugins.bases.table.action-clear-selection]
+original=Clear values
+translation=Ryd værdier
+
 [plugins.bases.table.label-summary]
 original=Summary
-translation=Sammenfatning
+translation=Summering
 
 [formulas.msg-error-parse-formula]
 original=Failed to parse formula "{{ formula }}"
@@ -9756,7 +9908,7 @@ translation=Tabel: {{command}}
 
 [callout.option-type]
 original=Callout type
-translation=Bemærkningstype
+translation=Bobletype
 
 [callout.type.info]
 original=Info
@@ -9800,7 +9952,7 @@ translation=Andre...
 
 [callout.option-other-placeholder]
 original=Callout type...
-translation=Bemærkningstype...
+translation=Bobletype...
 
 [nouns.count]
 original={{count}}
