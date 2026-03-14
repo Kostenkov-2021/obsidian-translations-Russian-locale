@@ -44,7 +44,7 @@ translation=Проверять орфографию
 
 [setting.editor.option-spellcheck-description]
 original=Turn on the spellchecker.
-translation=На данный момент работает только с американским английским.
+translation=Включить проверку орфографии (на данный момент работает только с американским английским).
 
 [setting.editor.spellcheck-languages]
 original=Spellcheck languages
@@ -7108,11 +7108,11 @@ translation=Перемещено из “{{from}}” в “{{to}}”
 
 [plugins.sync.label-revision]
 original={{count}} revision
-translation=1 версия
+translation={{count}} версия
 
 [plugins.sync.label-revision_plural]
 original={{count}} revisions
-translation={{revisions}} версий
+translation={{count}} версий
 
 [plugins.sync.label-via-device]
 original=via {{device}}
@@ -7464,7 +7464,7 @@ translation=Восстановление...
 
 [plugins.sync.msg-restoring-complete]
 original=Restore complete: {{succeeded}} succeeded and {{failed}} failed.
-translation=`Восстановление завершено: {{succeeded}} успешно и {{failed}} неудачно.`
+translation=`Восстановление завершено: {{succeeded}} успешно, {{failed}} с ошибками.`
 
 [plugins.sync.option-vault-size]
 original=Storage usage
@@ -9512,7 +9512,7 @@ translation=Не удаётся найти функцию "{{ function }}"
 
 [formulas.msg-error-invalid-instance-function]
 original=Cannot find function "{{ function }}" on type {{ type }}
-translation=Не удается найти функцию "{{ function }}" типа {{ type }}
+translation=Не удается найти функцию "{{ function }}" для типа {{ type }}
 
 [formulas.msg-error-not-enough-arguments]
 original=Cannot call function "{{ function }}", not enough arguments.
@@ -9524,15 +9524,15 @@ translation=Не удаётся вызвать функцию "{{ function }}", 
 
 [formulas.msg-error-type-error]
 original=Type error in "{{ function }}", parameter "{{ parameter }}". Expected {{ expected }}, given {{ given }}.
-translation=Ошибка ввода в функции "{{ function }}", параметр "{{ parameter }}". Ожидалось { expected }}, введено {{ given }}.
+translation=Ошибка типа в функции "{{ function }}", параметр "{{ parameter }}". Ожидалось { expected }}, получено {{ given }}.
 
 [formulas.msg-error-invalid-array-access]
 original=Cannot access index "{{ index }}" of non-array value
-translation=Не удается получить доступ к индексу {{ index }} значения, отличного от массива
+translation=Не удается получить доступ к индексу {{ index }} значения, не являющегося массивом
 
 [formulas.msg-error-invalid-object-access]
 original=Cannot find "{{ index }}" on type {{ type }}
-translation=Не удаётся найти {{ index }} типа {{ type }}
+translation=Не удаётся найти {{ index }} для типа {{ type }}
 
 [pdf.action-highlight-all]
 original=Highlight all
@@ -9552,11 +9552,11 @@ translation=Миниатюры
 
 [pdf.action-show-outline]
 original=Table of contents
-translation=Содержание
+translation=Оглавление
 
 [pdf.action-reveal-in-outline]
 original=Reveal page in table of contents
-translation=Показать страницу в содержании
+translation=Показать страницу в оглавлении
 
 [pdf.action-toggle-sidebar]
 original=Toggle sidebar
